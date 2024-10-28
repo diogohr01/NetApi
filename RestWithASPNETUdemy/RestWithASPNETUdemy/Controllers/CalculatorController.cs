@@ -56,6 +56,16 @@ namespace RestWithASPNETUdemy.Controllers
             }
             return BadRequest("Invalid Input");
         }    
+        [HttpGet("raiz/{strNumber}")]
+
+        public IActionResult Raiz(string strNumber)
+        {
+            if(IsNumeric(strNumber)){
+                  var raiz = Math.Sqrt((double)ConvertToDecimal(strNumber));
+                  return Ok(raiz.ToString());
+            }
+            return BadRequest("Invalid input");
+        }
         private bool IsNumeric(string strNumber)
         {
             double number;

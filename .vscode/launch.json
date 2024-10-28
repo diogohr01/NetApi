@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/drodrigues/Área de Trabalho/SENAI/NET/teste/NetApi/RestWithASPNETUdemy/RestWithASPNETUdemy/Model/Script",
+      "program": "/home/drodrigues/Área de Trabalho/SENAI/NET/teste/NetApi/RestWithASPNETUdemy/RestWithASPNETUdemy/Model/Script/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
